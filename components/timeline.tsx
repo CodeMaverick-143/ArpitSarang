@@ -20,7 +20,7 @@ export default function Timeline() {
       type: "experience",
     },
     {
-      title: "Hacktoberfest 2023",
+      title: "Hacktoberfest 2024",
       role: "Contributor",
       period: "October 2024",
       description: "Contributed to 5 open source projects during Hacktoberfest",
