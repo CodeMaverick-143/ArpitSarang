@@ -11,7 +11,7 @@ A modern, responsive portfolio website built with Next.js 13+ and TypeScript, sh
 - 📚 Skills and certifications showcase
 - 📧 Contact form integration
 - 🔍 SEO optimized
-- 📦 TypeScript for type safety
+- 📦 TypeScript for type safety.
 
 ## 🛠️ Tech Stack
 
