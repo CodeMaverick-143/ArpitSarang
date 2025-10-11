@@ -1,6 +1,6 @@
 # GitHub Portfolio
 
-A modern, responsive portfolio website built with Next.js 13+ and TypeScript, showcasing your skills, projects, and GitHub activity.
+A modern, responsive portfolio website built with Next.js 13+ and TypeScript, showcasing your skills, projects, and GitHub activity..
 
 ## 🚀 Features
 
