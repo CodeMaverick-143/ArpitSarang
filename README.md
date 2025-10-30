@@ -2,16 +2,16 @@
 
 A modern, responsive portfolio website built with Next.js 13+ and TypeScript, showcasing your skills, projects, and GitHub activity..
 
-## 🚀 Features
+## Features
 
-- 🎨 Modern and clean design with Tailwind CSS
-- 📱 Fully responsive layout
-- ⚡ Next.js 13+ App Router architecture
-- 📊 Interactive GitHub contribution graph
-- 📚 Skills and certifications showcase
-- 📧 Contact form integration
-- 🔍 SEO optimized
-- 📦 TypeScript for type safety.
+- Modern and clean design with Tailwind CSS
+- Fully responsive layout
+- Next.js 13+ App Router architecture
+- Interactive GitHub contribution graph
+- Skills and certifications showcase
+- Contact form integration
+- SEO optimized
+- TypeScript for type safety.
 
 ## 🛠️ Tech Stack
 
