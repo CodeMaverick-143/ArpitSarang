@@ -3,6 +3,8 @@ import type { Metadata } from "next"
 import { JetBrains_Mono } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import Navbar from "@/components/navbar"
+import Footer from "@/components/footer"
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -23,14 +25,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${jetbrainsMono.variable} font-mono`} suppressHydrationWarning>
-        <ThemeProvider 
-          attribute="class" 
-          defaultTheme="dark" 
+      <body className={`${jetbrainsMono.variable} font-mono min-h-screen flex flex-col`} suppressHydrationWarning>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <Navbar />
+          <main className="flex-1 container mx-auto px-4 pt-28 pb-8">
+            {children}
+          </main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

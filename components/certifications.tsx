@@ -34,7 +34,7 @@ export default function Certifications() {
       link: "https://unstop.com/certificate-preview/d844e9f7-3996-42b7-9b0b-c8b151fe2877",
     }
   ]
-  
+
   return (
     <section className="py-12">
       <h2 className="text-2xl font-bold mb-6">Certifications</h2>
@@ -53,14 +53,16 @@ export default function Certifications() {
             </CardHeader>
             <CardContent className="flex flex-col flex-grow">
               <p className="text-sm text-muted-foreground mb-4 flex-grow">{cert.description}</p>
-              <Button 
-                variant="outline" 
-                size="sm" 
+              <Button
+                variant="outline"
+                size="sm"
                 className="self-end"
-                onClick={() => window.open(cert.link, '_blank')}
+                asChild
               >
-                <ExternalLink className="h-4 w-4 mr-2" />
-                View Certificate
+                <a href={cert.link} target="_blank" rel="noopener noreferrer">
+                  <ExternalLink className="h-4 w-4 mr-2" />
+                  View Certificate
+                </a>
               </Button>
             </CardContent>
           </Card>

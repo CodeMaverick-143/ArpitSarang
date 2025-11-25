@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Download, Github, Linkedin, Code2 } from "lucide-react"
@@ -16,8 +18,8 @@ export default function Hero() {
             <Button variant="outline" className="w-full">
               Follow
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="w-full"
               onClick={() => {
                 const link = document.createElement('a');
