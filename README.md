@@ -1,129 +1,94 @@
-# GitHub Portfolio
+# Arpit Sarang – Full‑Stack Developer Portfolio
 
-A modern, responsive portfolio website built with Next.js 13+ and TypeScript, showcasing your skills, projects, and GitHub activity..
+![Portfolio Preview](https://raw.githubusercontent.com/CodeMaverick-143/ArpitSarang/main/public/preview.png)
 
-## Features
-
-- Modern and clean design with Tailwind CSS
-- Fully responsive layout
-- Next.js 13+ App Router architecture
-- Interactive GitHub contribution graph
-- Skills and certifications showcase
-- Contact form integration
-- SEO optimized
-- TypeScript for type safety.
-
-## 🛠️ Tech Stack
-
-- **Framework**: Next.js 13+
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **State Management**: React Hooks
-- **API Integration**: GitHub API
-- **Package Manager**: pnpm
-
-## 📦 Prerequisites
-
-- Node.js (v18 or higher)
-- pnpm (recommended)
-
-## 🚀 Getting Started
-
-1. Clone the repository:
-```bash
-git clone [repository-url]
-cd github-portfolio
-```
-
-2. Install dependencies:
-```bash
-pnpm install
-```
-
-3. Create a `.env.local` file in the root directory and add your environment variables:
-```env
-NEXT_PUBLIC_GITHUB_USERNAME=your-github-username
-```
-
-4. Start the development server:
-```bash
-pnpm dev
-```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
-
-## 📦 Project Structure
-
-```
-.
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable UI components
-├── hooks/              # Custom React hooks
-├── lib/                # Utility functions and shared logic
-├── public/             # Static assets
-├── styles/             # Global styles and Tailwind configuration
-└── tailwind.config.ts  # Tailwind CSS configuration
-```
-
-## 🛠️ Development
-
-### Running the Development Server
-
-```bash
-pnpm dev
-```
-
-### Building for Production
-
-```bash
-pnpm build
-```
-
-### Starting the Production Server
-
-```bash
-pnpm start
-```
-
-## 📝 Customization
-
-1. Update your personal information in the relevant components:
-   - `components/about.tsx`
-   - `components/skills.tsx`
-   - `components/projects.tsx`
-   - `components/certifications.tsx`
-   - `components/contact.tsx`
-
-2. Customize the design by modifying:
-   - `tailwind.config.ts`
-   - `styles/globals.css`
-
-3. Update your GitHub username in the contribution graph component:
-   - `components/contribution-graph.tsx`
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- GitHub Readme Activity Graph for the contribution visualization
-- Next.js team for their amazing framework
-- All contributors who helped with this project
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📫 Contact
-
-- GitHub: [id](CodeMaverick-143)
-- Email: [Email](arpitsarang2020@gmail.com)
+A modern, responsive portfolio website built with **Next.js 13+**, **TypeScript**, and **Tailwind CSS** that showcases my skills, open‑source projects, and GitHub activity.
 
 ---
 
-Made with ❤️ by Arpit Sarang
+## ✨ Features
+
+- **Floating navigation bar** with smooth scrolling and mobile drawer
+- **Dynamic project cards** with live demo and source links
+- **Skills & certifications** displayed with elegant UI components
+- **GitHub contribution graph** powered by the GitHub API
+- **Responsive design** – looks great on desktop, tablet, and mobile
+- **SEO‑optimized** meta tags and Open Graph data
+- **Contact form** with toast notifications (frontend‑validated)
+- **Dark/Light mode** toggle persisted via `next-themes`
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 13+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS, Shadcn UI components
+- **State Management**: React Hooks
+- **Icons**: Lucide‑react, React‑Icons
+- **Data fetching**: `fetch` with GitHub API
+- **Deployment**: Vercel (auto‑deploy on push)
+
+---
+
+## � Projects
+
+| Project | Description | Tech | Demo / Repo |
+|---|---|---|---|
+| **Git Stat APK** | Cross‑platform mobile app (React Native & Expo) that provides detailed GitHub analytics and user insights. | React Native, Expo, TypeScript, GitHub API | [Demo](https://github.com/CodeMaverick-143/Git-Stat-APK/releases) • [Repo](https://github.com/CodeMaverick-143/Git-Stat-APK) |
+| **xplnhub‑snakeskin** | Lightweight frontend framework/library for building component‑based web applications. | Python, Web Components | [Demo (PyPI)](https://pypi.org/project/snakeskin-xplnhub/) • [Repo](https://github.com/XplnHUB/xplnhub-snakeskin) |
+| **Insight** | Python CLI tool that analyzes codebases and generates detailed reports. | Python, Click | [Demo (PyPI)](https://pypi.org/project/insight-cli-sarang/) • [Repo](https://github.com/XplnHUB/Insight-Py) |
+| **Finmate** | Personal finance tracker for students – budgeting, goals, and dashboards. | Next.js, TypeScript, Tailwind CSS | [Demo](https://finmate-ten.vercel.app/dashboard) • [Repo](https://github.com/XplnHUB/Finmate) |
+
+---
+
+## 🧩 Skills
+
+- **Languages**: TypeScript, JavaScript, Go, Python, HTML, CSS
+- **Frameworks**: Next.js, React, React Native, Expo, Shadcn UI
+- **Tools**: Git, GitHub, Vercel, Prisma, PostgreSQL, Docker, WebRTC, Liveblocks
+- **Design**: Tailwind CSS, CSS‑in‑JS, Responsive Layouts, Dark Mode
+
+---
+
+## � Contact
+
+- **GitHub**: [CodeMaverick-143](https://github.com/CodeMaverick-143)
+- **LinkedIn**: [arpitsarang](https://www.linkedin.com/in/arpitsarang)
+- **Email**: [arpitsarang2020@gmail.com](mailto:arpitsarang2020@gmail.com)
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/CodeMaverick-143/ArpitSarang.git
+cd ArpitSarang
+
+# Install dependencies (pnpm recommended)
+pnpm install
+
+# Run the development server
+pnpm dev
+```
+
+Open `http://localhost:3000` to view the portfolio locally.
+
+---
+
+## � License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+## 🙏 Acknowledgments
+
+- Next.js team for the powerful framework
+- Shadcn UI for the beautiful component library
+- All open‑source contributors whose libraries power this site
+
+---
+
+*Made with ❤️ by **Arpit Sarang***
