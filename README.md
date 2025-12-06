@@ -1,6 +1,6 @@
 # Arpit Sarang – Full‑Stack Developer Portfolio
 
-![Portfolio Preview](https://raw.githubusercontent.com/CodeMaverick-143/ArpitSarang/main/public/preview.png)
+
 
 A modern, responsive portfolio website built with **Next.js 13+**, **TypeScript**, and **Tailwind CSS** that showcases my skills, open‑source projects, and GitHub activity.
 
