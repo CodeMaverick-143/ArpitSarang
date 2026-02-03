@@ -1,4 +1,4 @@
-# Arpit Sarang – Full‑Stack Developer Portfolio
+# Arpit Sarang – Full‑Stack Developer Portfolio.
 
 
 
