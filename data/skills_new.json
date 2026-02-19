@@ -1,0 +1,403 @@
+{
+    "sections": [
+        {
+            "category": "Core Languages",
+            "icon": "Code2",
+            "description": "The languages I use daily to build scalable products",
+            "skills": [
+                {
+                    "name": "TypeScript",
+                    "color": "#3178c6",
+                    "level": 90,
+                    "proficiency": "Advanced (90%)",
+                    "context": "Primary language for all production frontend projects at Saturn",
+                    "icon": "SiTypescript"
+                },
+                {
+                    "name": "JavaScript (ES6+)",
+                    "color": "#f1e05a",
+                    "level": 90,
+                    "proficiency": "Advanced (90%)",
+                    "context": "Node.js backends, React applications, and CLI tooling",
+                    "icon": "SiJavascript"
+                },
+                {
+                    "name": "Python",
+                    "color": "#3572A5",
+                    "level": 75,
+                    "proficiency": "Intermediate (75%)",
+                    "context": "AI/ML experiments, data analysis, and backend scripting",
+                    "icon": "SiPython"
+                },
+                {
+                    "name": "Rust",
+                    "color": "#CE412B",
+                    "level": 75,
+                    "proficiency": "Intermediate (75%)",
+                    "context": "Tauri desktop app development for Saturn IDE, performance-critical systems",
+                    "icon": "SiRust"
+                },
+                {
+                    "name": "SQL",
+                    "color": "#00758F",
+                    "level": 85,
+                    "proficiency": "Advanced (85%)",
+                    "context": "Complex queries, optimization, database auditing",
+                    "icon": "SiPostgresql"
+                },
+                {
+                    "name": "Bash/Shell",
+                    "color": "#4EAA25",
+                    "level": 80,
+                    "proficiency": "Intermediate (80%)",
+                    "context": "CLI tools, DevOps scripts, automation",
+                    "icon": "SiGnubash"
+                }
+            ]
+        },
+        {
+            "category": "Frontend Development",
+            "icon": "LayoutTemplate",
+            "description": "Building fast, responsive, and beautiful interfaces with React and modern tooling",
+            "skills": [
+                {
+                    "name": "React",
+                    "color": "#61dafb",
+                    "level": 85,
+                    "proficiency": "Advanced (85%)",
+                    "context": "Component-driven UI development, state management, production applications",
+                    "icon": "SiReact"
+                },
+                {
+                    "name": "Next.js",
+                    "color": "#005571",
+                    "level": 80,
+                    "proficiency": "Advanced (80%)",
+                    "context": "Full-stack React, SSR/SSG, API routes, and edge functions",
+                    "icon": "SiNextdotjs"
+                },
+                {
+                    "name": "Astro",
+                    "color": "#FF5D01",
+                    "level": 75,
+                    "proficiency": "Intermediate (75%)",
+                    "context": "Static site generation, performance-optimized web projects",
+                    "icon": "SiAstro"
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "color": "#38bdf8",
+                    "level": 90,
+                    "proficiency": "Advanced (90%)",
+                    "context": "Rapid UI development, design systems, responsive layouts",
+                    "icon": "SiTailwindcss"
+                },
+                {
+                    "name": "HTML/CSS",
+                    "color": "#e34f26",
+                    "level": 88,
+                    "proficiency": "Advanced (88%)",
+                    "context": "Semantic markup, CSS Grid/Flexbox, animations",
+                    "icon": "SiHtml5"
+                }
+            ]
+        },
+        {
+            "category": "Backend & Server-Side",
+            "icon": "Server",
+            "description": "Designing APIs and systems that power production applications",
+            "skills": [
+                {
+                    "name": "Node.js",
+                    "color": "#339933",
+                    "level": 85,
+                    "proficiency": "Advanced (85%)",
+                    "context": "Express servers, REST APIs, backend automation for Saturn",
+                    "icon": "SiNodedotjs"
+                },
+                {
+                    "name": "Express.js",
+                    "color": "#828282",
+                    "level": 80,
+                    "proficiency": "Advanced (80%)",
+                    "context": "RESTful API development, middleware, routing",
+                    "icon": "SiExpress"
+                },
+                {
+                    "name": "Prisma ORM",
+                    "color": "#2D3748",
+                    "level": 85,
+                    "proficiency": "Advanced (85%)",
+                    "context": "Database modeling, migrations, and type-safe queries for Saturn",
+                    "icon": "SiPrisma"
+                },
+                {
+                    "name": "Go (Golang)",
+                    "color": "#00ADD8",
+                    "level": 70,
+                    "proficiency": "Intermediate (70%)",
+                    "context": "Performance-critical services, concurrent systems",
+                    "icon": "SiGo"
+                }
+            ]
+        },
+        {
+            "category": "Databases & Data",
+            "icon": "Database",
+            "description": "Expert in relational and NoSQL databases; database auditing and optimization",
+            "skills": [
+                {
+                    "name": "PostgreSQL",
+                    "color": "#4169E1",
+                    "level": 85,
+                    "proficiency": "Advanced (85%)",
+                    "context": "Primary database for Saturn, complex schemas, performance tuning",
+                    "icon": "SiPostgresql"
+                },
+                {
+                    "name": "MySQL",
+                    "color": "#00758F",
+                    "level": 75,
+                    "proficiency": "Intermediate (75%)",
+                    "context": "Relational databases, data auditing, optimization",
+                    "icon": "SiMysql"
+                },
+                {
+                    "name": "SQLite",
+                    "color": "#003B57",
+                    "level": 85,
+                    "proficiency": "Advanced (85%)",
+                    "context": "Local-first development, embedded databases, Tauri applications",
+                    "icon": "SiSqlite"
+                },
+                {
+                    "name": "MongoDB",
+                    "color": "#4DB33D",
+                    "level": 80,
+                    "proficiency": "Intermediate (80%)",
+                    "context": "NoSQL data modeling, document storage, real-time applications",
+                    "icon": "SiMongodb"
+                }
+            ]
+        },
+        {
+            "category": "AI/ML & Data Science",
+            "icon": "BrainCircuit",
+            "description": "Integrating AI models and data science into production applications",
+            "skills": [
+                {
+                    "name": "Python ML Stack",
+                    "color": "#3776AB",
+                    "level": 75,
+                    "proficiency": "Intermediate (75%)",
+                    "context": "NumPy, Pandas, scikit-learn for data manipulation and analysis",
+                    "icon": "SiPython"
+                },
+                {
+                    "name": "NumPy",
+                    "color": "#013243",
+                    "level": 70,
+                    "proficiency": "Intermediate (70%)",
+                    "context": "Numerical computing, array operations, mathematical functions",
+                    "icon": "SiNumpy"
+                },
+                {
+                    "name": "Pandas",
+                    "color": "#150458",
+                    "level": 70,
+                    "proficiency": "Intermediate (70%)",
+                    "context": "Data wrangling, cleaning, exploratory data analysis",
+                    "icon": "SiPandas"
+                },
+                {
+                    "name": "Deep Learning",
+                    "color": "#FF6F00",
+                    "level": 60,
+                    "proficiency": "Beginner (60%)",
+                    "context": "Neural networks, TensorFlow fundamentals (AI For Everyone certified)",
+                    "icon": "SiTensorflow"
+                },
+                {
+                    "name": "LLM Integration",
+                    "proficiency": "Intermediate (75%)",
+                    "level": 75,
+                    "color": "#412991",
+                    "context": "Local LLMs, API integration, prompt engineering",
+                    "icon": "SiOpenai"
+                }
+            ]
+        },
+        {
+            "category": "Desktop & Systems Development",
+            "icon": "Monitor",
+            "description": "Building cross-platform desktop applications with Tauri and Electron",
+            "skills": [
+                {
+                    "name": "Tauri",
+                    "color": "#24C8DB",
+                    "level": 80,
+                    "proficiency": "Advanced (80%)",
+                    "context": "Building Saturn IDE—lightweight, performant desktop apps with Rust + TypeScript",
+                    "icon": "SiTauri"
+                },
+                {
+                    "name": "React Native",
+                    "color": "#61dafb",
+                    "level": 80,
+                    "proficiency": "Intermediate (80%)",
+                    "context": "Cross-platform mobile development",
+                    "icon": "SiReact"
+                },
+                {
+                    "name": "Electron",
+                    "color": "#47848F",
+                    "level": 75,
+                    "proficiency": "Intermediate (75%)",
+                    "context": "Desktop application development with web technologies",
+                    "icon": "SiElectron"
+                }
+            ]
+        },
+        {
+            "category": "DevOps & Infrastructure",
+            "icon": "Cloud",
+            "description": "From local development to production deployment and CI/CD pipelines",
+            "skills": [
+                {
+                    "name": "Git & GitHub",
+                    "color": "#6e5494",
+                    "level": 85,
+                    "proficiency": "Advanced (85%)",
+                    "context": "Version control, collaboration, open source contributions (500+)",
+                    "icon": "SiGit"
+                },
+                {
+                    "name": "Linux/Unix",
+                    "color": "#fcc624",
+                    "level": 70,
+                    "proficiency": "Intermediate (70%)",
+                    "context": "System administration, shell scripting, deployment environments",
+                    "icon": "SiLinux"
+                },
+                {
+                    "name": "Docker",
+                    "color": "#2496ed",
+                    "level": 70,
+                    "proficiency": "Intermediate (70%)",
+                    "context": "Containerization, local development, application deployment",
+                    "icon": "SiDocker"
+                },
+                {
+                    "name": "Vercel/Netlify",
+                    "color": "#000000",
+                    "level": 85,
+                    "proficiency": "Advanced (85%)",
+                    "context": "Frontend deployment, serverless functions, edge computing",
+                    "icon": "SiVercel"
+                },
+                {
+                    "name": "AWS",
+                    "color": "#232F3E",
+                    "level": 70,
+                    "proficiency": "Intermediate (70%)",
+                    "context": "EC2, S3, RDS, Lambda for production deployments",
+                    "icon": "SiAmazonwebservices"
+                }
+            ]
+        },
+        {
+            "category": "Tools & Platforms",
+            "icon": "Wrench",
+            "description": "Development tools, IDEs, and utility platforms",
+            "skills": [
+                {
+                    "name": "VS Code",
+                    "color": "#007acc",
+                    "level": 90,
+                    "proficiency": "Advanced (90%)",
+                    "context": "Primary development environment, extensions, debugging",
+                    "icon": "SiVisualstudiocode"
+                },
+                {
+                    "name": "GitHub Actions",
+                    "color": "#2088ff",
+                    "level": 75,
+                    "proficiency": "Intermediate (75%)",
+                    "context": "CI/CD pipelines, automation, testing workflows",
+                    "icon": "SiGithubactions"
+                },
+                {
+                    "name": "NeonDB",
+                    "color": "#00E599",
+                    "level": 85,
+                    "proficiency": "Advanced (85%)",
+                    "context": "Serverless PostgreSQL for Saturn and production projects",
+                    "icon": "SiNeon"
+                }
+            ]
+        },
+        {
+            "category": "Soft Skills & Competencies",
+            "icon": "Users",
+            "description": "Proven ability to architect systems, ship products, and lead technical decisions",
+            "skills": [
+                {
+                    "name": "Full-Stack Development",
+                    "color": "#3B82F6",
+                    "level": 95,
+                    "proficiency": "Advanced",
+                    "context": "End-to-end application design and implementation",
+                    "icon": "LayoutTemplate"
+                },
+                {
+                    "name": "System Design",
+                    "color": "#8B5CF6",
+                    "level": 95,
+                    "proficiency": "Advanced",
+                    "context": "Database schema design, API architecture, scalable systems",
+                    "icon": "Server"
+                },
+                {
+                    "name": "Problem-Solving",
+                    "color": "#EF4444",
+                    "level": 95,
+                    "proficiency": "Advanced",
+                    "context": "Complex bug reproduction, root cause analysis, performance optimization",
+                    "icon": "Target"
+                },
+                {
+                    "name": "UI/UX Design",
+                    "color": "#EC4899",
+                    "level": 75,
+                    "proficiency": "Intermediate",
+                    "context": "Figma, component design, user experience optimization",
+                    "icon": "Lightbulb"
+                },
+                {
+                    "name": "Product Development",
+                    "color": "#F59E0B",
+                    "level": 75,
+                    "proficiency": "Intermediate",
+                    "context": "Building Saturn IDE—feature prioritization, user feedback integration",
+                    "icon": "Rocket"
+                },
+                {
+                    "name": "Technical Documentation",
+                    "color": "#10B981",
+                    "level": 95,
+                    "proficiency": "Advanced",
+                    "context": "README files, API docs, onboarding guides for open source",
+                    "icon": "FileText"
+                },
+                {
+                    "name": "Open Source",
+                    "color": "#6366F1",
+                    "level": 95,
+                    "proficiency": "Advanced",
+                    "context": "500+ contributions, community engagement, collaborative development",
+                    "icon": "Globe"
+                }
+            ]
+        }
+    ]
+}

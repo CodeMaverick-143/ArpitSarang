@@ -23,8 +23,8 @@ export default function Hero() {
               className="w-full"
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = '/resume.pdf';
-                link.download = 'resume.pdf';
+                link.href = '/Resume_Arpit_Sarang.pdf';
+                link.download = 'Resume_Arpit_Sarang.pdf';
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);

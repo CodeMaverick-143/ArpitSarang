@@ -27,7 +27,7 @@ export default function AboutPage() {
 
                     <div className="flex gap-4 pt-4">
                         <Button asChild>
-                            <Link href="/resume.pdf" target="_blank">
+                            <Link href="/Resume_Arpit_Sarang.pdf" target="_blank">
                                 <FileText className="mr-2 h-4 w-4" />
                                 Download Resume
                             </Link>

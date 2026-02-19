@@ -15,6 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Arpit Sarang | CodeMaverick-143",
   description: "Full-Stack Developer | AI/ML Enthusiast",
+  icons: {
+    icon: "/myPhoto.jpg",
+  },
   generator: 'v0.dev'
 }
 
