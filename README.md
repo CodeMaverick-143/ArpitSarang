@@ -2,7 +2,7 @@
 
 
 
-A modern, responsive portfolio website built with **Next.js 13+**, **TypeScript**, and **Tailwind CSS** that showcases my skills, open‑source projects, and GitHub activity.
+A modern, responsive portfolio website built with **Next.js 13+**, **TypeScript**, and **Tailwind CSS** that showcases my skills, open‑source projects, and GitHub activity...
 
 ---
 
